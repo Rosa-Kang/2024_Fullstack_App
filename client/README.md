@@ -6,28 +6,36 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### `mui DataGrid`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ [https://mui.com/x/react-data-grid/export/#custom-toolbar]
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `Geography Graphic`
 
-### `npm test`
+ [https://nivo.rocks/choropleth/]
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### `Other useful resources`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Node: https://nodejs.org/en/download/
+NPX: https://www.npmjs.com/package/npx
+VSCode: https://code.visualstudio.com/download
+Nodemon: https://github.com/remy/nodemon
+Nivo: https://nivo.rocks/
+Material UI: https://mui.com/material-ui/getting-s...
+Material UI Data Grid: https://mui.com/x/react-data-grid/
+React Router: https://reactrouter.com/en/v6.3.0/get...
+React Date Picker: https://reactdatepicker.com/#example-...
+Redux Toolkit: https://redux-toolkit.js.org/introduc...
+Redux Toolkit Query: https://redux-toolkit.js.org/rtk-quer...
+Dotenv: https://github.com/motdotla/dotenv
+JsonWebToken: https://github.com/auth0/node-jsonweb...
+Google Fonts: https://fonts.google.com/
+Render: https://render.com/
+Railway: https://railway.app/
+MongoDB: https://www.mongodb.com/
+Mongoose: https://github.com/Automattic/mongoose
+MongoDB Aggregate: https://www.mongodb.com/docs/manual/r...
 
 ### `npm run eject`
 
