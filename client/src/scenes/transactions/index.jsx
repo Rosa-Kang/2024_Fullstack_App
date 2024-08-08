@@ -55,7 +55,7 @@ const Transactions = () => {
     ]
     
   return (
-    <Box m="1.5rem 2rem">
+    <Box m="1.5rem 2.5rem">
         <Header title="TRANSACTIONS" subtitle="List of transactions." />
         <Box height="80vh"
           sx={{

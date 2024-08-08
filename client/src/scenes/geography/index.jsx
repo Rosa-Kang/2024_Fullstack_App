@@ -8,10 +8,10 @@ import { geoData } from 'state/geoData';
 
 const Geography = () => {
     const theme = useTheme();
-    const {data, isLoading} = useGetGeographyQuery();
+    const { data } = useGetGeographyQuery();
 
   return (
-    <Box m="1.5rem 2rem">
+    <Box m="1.5rem 2.5rem">
         <Header title="GEOGRAPHY" subtitle="find where your users are located.."    />
 
         <Box 
@@ -36,7 +36,7 @@ const Geography = () => {
                   }
                 },
                 ticks: {
-                  text : {
+                  line : {
                     stroke: theme.palette.secondary[200],
                     strokeWidth: 1
                   },
