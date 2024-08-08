@@ -17,7 +17,7 @@ import salesRoutes from './routes/sales.js';
 
 
 /* DATA IMPORTS */
-// import { dataUser, dataProduct, dataProductStat, dataTransaction, dataOverallStat } from "./data/index.js"
+import { dataUser, dataProduct, dataProductStat, dataTransaction, dataOverallStat } from "./data/index.js"
 
 
 /* CONFIGURATION */
