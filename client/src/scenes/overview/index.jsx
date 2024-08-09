@@ -9,19 +9,25 @@ const Overview = () => {
 
   return (
     <Box m="1.5rem 2.5rem">
-            <Header title="OVERVIEW" subtitle="Display Overview" />
-            <Box height="75vh">
-              <FormControl sx={{ mt: "1rem" }} >
-                <InputLabel>View</InputLabel>
-                <Select value={view} label="View" onChange={(e) => setView(e.target.value)}>
-                  <MenuItem value="sales">Sales</MenuItem>
-                  <MenuItem value="unit">Unit</MenuItem>
-                </Select>
-              </FormControl>
-
-              <OverviewChart view={view} />
-            </Box>
-            <OverviewChart />
+      <Header
+        title="OVERVIEW"
+        subtitle="Overview of general revenue and profit"
+      />
+      <Box height="75vh">
+        <FormControl>
+          <InputLabel sx={{ position: "inherit", top: "1rem"}}>View</InputLabel>
+          <Select
+            value={view}
+            label="View"
+            onChange={(e) => setView(e.target.value)}
+            sx={{ position: "inherit"}}
+          >
+            <MenuItem value="sales">Sales</MenuItem>
+            <MenuItem value="units">Units</MenuItem>
+          </Select>
+        </FormControl>
+        <OverviewChart view={view} />
+      </Box>
     </Box>
   )
 }
